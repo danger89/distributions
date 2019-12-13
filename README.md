@@ -82,8 +82,11 @@ NodeSource will maintain support for stable, testing and unstable releases of De
 * **Linux Mint 19 "Tara"** (via Ubuntu 18.04 LTS)
 * **Linux Mint 19.1 "Tessa"** (via Ubuntu 18.04 LTS)
 * **Linux Mint 19.2 "Tina"** (via Ubuntu 18.04 LTS)
+<<<<<<< HEAD
 * **Linux Mint 19.3 "Tricia"** (via Ubuntu 18.04 LTS)
 * **Linux Mint Debian Edition (LMDE) 4 "Debbie"** (via Debian 10)
+=======
+>>>>>>> 89232307f24a4578a3e06095bb888f9dee1b2406
 
 **Supported Devuan versions:**
 
@@ -115,6 +118,7 @@ NodeSource will maintain support for stable, testing and unstable releases of De
 
 **Supported MX Linux versions:**
 
+<<<<<<< HEAD
 * **MX Linux 17 " "Horizon"** (via Debian 9)
 * **MX Linux 18 " "Continuum"** (via Debian 9)
 
@@ -122,6 +126,10 @@ NodeSource will maintain support for stable, testing and unstable releases of De
 
 * **Deepin Lion** (via Debian 9)
 * **Deepin Stable** (via Debian 9)
+=======
+* **MX-17 Horizon** (via Debian 9)
+* **MX-18 Continuum** (via Debian 9)
+>>>>>>> 89232307f24a4578a3e06095bb888f9dee1b2406
 
 <a name="debinstall"></a>
 ### Installation instructions
@@ -253,27 +261,31 @@ sudo apt-get install nodejs
 
 NodeSource will continue to maintain the following architectures and may add additional ones in the future.
 
-* **i386** (32-bit)—not available for all distros and **not available for Node.js 10 and later**
+* **i386** (32-bit) — not available for all distros and **not available for Node.js 10.x and later**
 * **x86_64** (64-bit)
 
 **Supported Red Hat® Enterprise Linux® versions:**
 
-* **RHEL 6** (64-bit)
+* **RHEL 6** (64-bit) - **not available for Node.js 12.x and later**
 * **RHEL 7** (64-bit)
+* **RHEL 8** (64-bit)
 
 **Supported CentOS versions:**
 
-* **CentOS 6** (64-bit)
+* **CentOS 6** (64-bit) - **not available for Node.js 12.x and later**
 * **CentOS 7** (64-bit)
+* **CentOS 8** (64-bit)
 
 **Supported CloudLinux versions:**
 * **CloudLinux 6** (32-bit for Node <= 10.x and 64-bit)
 
 **Supported Fedora versions:**
 
-* **Fedora 27** (32-bit for Node <= 10.x and 64-bit)
-* **Fedora 28** (64-bit)
-* **Fedora 29** (64-bit) for Node >= 10.13.0
+* **Fedora 27** (32-bit) - **not available for Node.js 11.x and later** and (64-bit) - **not available for Node.js 12.x and later**
+* **Fedora 28** (64-bit) - **available for Node.js 8.11.2 and later**
+* **Fedora 29** (64-bit) - **available for Node.js 10.13.0 and later**
+* **Fedora 30** (64-bit) - **available for Node.js 10.16.0 and later**
+* **Fedora 31** (64-bit) - **available for Node.js 10.17.0 and later**
 
 Equivalent versions of Korora Linux should also be supported.
 

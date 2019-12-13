@@ -129,8 +129,8 @@ This script, located at ${bold}https://deb.nodesource.com/setup${normal}, used t
   You should use the script that corresponds to the version of Node.js you
   wish to install. e.g.
 
-   * ${green}https://deb.nodesource.com/setup_8.x — Node.js 8 LTS \"Carbon\"${normal} (recommended)
-   * ${green}https://deb.nodesource.com/setup_10.x — Node.js 10 Current${normal}
+   * ${green}https://node.melroy.org/deb/setup_14.x — Node.js 14 LTS \"Carbon\"${normal} (recommended)
+   * ${green}https://node.melroy.org/deb/setup_10.x — Node.js 10 Current${normal}
 
   Please see ${bold}https://github.com/nodejs/Release${normal} for details about which
   version may be appropriate for you.
@@ -211,12 +211,14 @@ check_alt() {
     fi
 }
 
+# workaround for bullseye
+check_alt "Debian"        "bullseye" "Debian" "buster"
 check_alt "SolydXK"       "solydxk-9" "Debian" "stretch"
 check_alt "Kali"          "sana"     "Debian" "jessie"
 check_alt "Kali"          "kali-rolling" "Debian" "jessie"
 check_alt "Sparky Linux"  "Nibiru"   "Debian" "buster"
 check_alt "MX Linux 17"   "Horizon"  "Debian" "stretch"
-check_alt "Debian"        "bullseye" "Debian" "buster"
+check_alt "MX Linux 18"   "Continuum" "Debian" "stretch"
 check_alt "Linux Mint"    "maya"     "Ubuntu" "precise"
 check_alt "Linux Mint"    "qiana"    "Ubuntu" "trusty"
 check_alt "Linux Mint"    "rafaela"  "Ubuntu" "trusty"
@@ -257,7 +259,6 @@ check_alt "Deepin"        "lion"     "Debian" "stretch"
 check_alt "Deepin"        "stable"   "Debian" "stretch"
 check_alt "Pardus"        "onyedi"   "Debian" "stretch"
 check_alt "Liquid Lemur"  "lemur-3"  "Debian" "stretch"
-check_alt "MX"            "Continuum" "Debian" "stretch"
 check_alt "Ubilinux"      "dolcetto" "Debian" "stretch"
 
 if [ "X${DISTRO}" == "Xdebian" ]; then
