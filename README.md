@@ -62,10 +62,16 @@ NodeSource will maintain Ubuntu distributions in active support by Canonical, in
 
 NodeSource will maintain support for stable, testing and unstable releases of Debian, due to the long release cycle a considerable number of users are running unstable.
 
+<<<<<<< HEAD
 * **Debian 8** (Jessie)
 * **Debian 9 / oldstable** (Stretch)
 * **Debian 10 / stable** (Buster)
 * **Debian 11 / testing** (Bullseye)
+=======
+* **Debian 8 / oldoldstable** (Jessie)
+* **Debian 9 / oldstable** (Stretch)
+* **Debian 10 / stable** (Buster)
+>>>>>>> 864ec0d7a70bcf156bbb31d65b95aebea02b88e7
 * **Debian unstable** (Sid)
 
 **Supported Linux Mint versions:**
@@ -83,6 +89,7 @@ NodeSource will maintain support for stable, testing and unstable releases of De
 * **Linux Mint 19.1 "Tessa"** (via Ubuntu 18.04 LTS)
 * **Linux Mint 19.2 "Tina"** (via Ubuntu 18.04 LTS)
 <<<<<<< HEAD
+<<<<<<< HEAD
 * **Linux Mint 19.3 "Tricia"** (via Ubuntu 18.04 LTS)
 * **Linux Mint Debian Edition (LMDE) 4 "Debbie"** (via Debian 10)
 =======
@@ -94,12 +101,23 @@ NodeSource will maintain support for stable, testing and unstable releases of De
 * **Ascii** (via Debian 9)
 * **Beowulf** (via Debian 10)
 * **Ceres** (via Debian unstable)
+=======
+* **Linux Mint 19.3 "Tricia"** (via Ubuntu 18.04 LTS)
+
+**Supported Devuan versions:**
+
+* **Jessie / oldstable** (via Debian 8)
+* **Ascii / stable** (via Debian 9)
+* **Beowulf / testing** (via Debian 10)
+* **Ceres / unstable** (via Debian unstable)
+>>>>>>> 864ec0d7a70bcf156bbb31d65b95aebea02b88e7
 
 **Supported elementary OS versions:**
 
 * **elementary OS Freya** (via Ubuntu 14.04 LTS) - **not available for Node.js 10 and later**
 * **elementary OS Loki** (via Ubuntu 16.04 LTS)
 * **elementary OS Juno** (via Ubuntu 18.04 LTS)
+* **elementary OS Hera** (via Ubuntu 18.04 LTS)
 
 **Supported Trisquel versions:**
 
@@ -110,6 +128,7 @@ NodeSource will maintain support for stable, testing and unstable releases of De
 
 * **BOSS 5.0 "Anokha"** (via Debian 7) - **not available for Node.js 10 and later**
 * **BOSS 6.0 "Anoop"** (via Debian 8)
+* **BOSS 7.0 "Drishti"** (via Debian 9)
 
 **Supported BunsenLabs versions:**
 
@@ -118,18 +137,15 @@ NodeSource will maintain support for stable, testing and unstable releases of De
 
 **Supported MX Linux versions:**
 
-<<<<<<< HEAD
-* **MX Linux 17 " "Horizon"** (via Debian 9)
-* **MX Linux 18 " "Continuum"** (via Debian 9)
+* **MX-17 Horizon** (via Debian 9)
+* **MX-18 Continuum** (via Debian 9)
+
 
 **Supported Deepin versions:**
 
 * **Deepin Lion** (via Debian 9)
 * **Deepin Stable** (via Debian 9)
-=======
-* **MX-17 Horizon** (via Debian 9)
-* **MX-18 Continuum** (via Debian 9)
->>>>>>> 89232307f24a4578a3e06095bb888f9dee1b2406
+
 
 <a name="debinstall"></a>
 ### Installation instructions
@@ -461,6 +477,8 @@ We, unfortunately, do not have the resources necessary to support and test the p
 * Korora - [Issue #130](https://github.com/nodesource/distributions/issues/130)
 * FreePBX - [Issue #257](https://github.com/nodesource/distributions/issues/257)
 * Deepin - [Issue #638](https://github.com/nodesource/distributions/issues/638)
+* PopOS - [Issue #924](https://github.com/nodesource/distributions/issues/924)
+* Sparky Linux - [Issue #476](https://github.com/nodesource/distributions/issues/476)
 
 <a name="authors-contributors"></a>
 ## Authors and Contributors
