@@ -62,16 +62,9 @@ NodeSource will maintain Ubuntu distributions in active support by Canonical, in
 
 NodeSource will maintain support for stable, testing and unstable releases of Debian, due to the long release cycle a considerable number of users are running unstable.
 
-<<<<<<< HEAD
-* **Debian 8** (Jessie)
-* **Debian 9 / oldstable** (Stretch)
-* **Debian 10 / stable** (Buster)
-* **Debian 11 / testing** (Bullseye)
-=======
 * **Debian 8 / oldoldstable** (Jessie)
 * **Debian 9 / oldstable** (Stretch)
 * **Debian 10 / stable** (Buster)
->>>>>>> 864ec0d7a70bcf156bbb31d65b95aebea02b88e7
 * **Debian unstable** (Sid)
 
 **Supported Linux Mint versions:**
@@ -88,21 +81,8 @@ NodeSource will maintain support for stable, testing and unstable releases of De
 * **Linux Mint 19 "Tara"** (via Ubuntu 18.04 LTS)
 * **Linux Mint 19.1 "Tessa"** (via Ubuntu 18.04 LTS)
 * **Linux Mint 19.2 "Tina"** (via Ubuntu 18.04 LTS)
-<<<<<<< HEAD
-<<<<<<< HEAD
 * **Linux Mint 19.3 "Tricia"** (via Ubuntu 18.04 LTS)
 * **Linux Mint Debian Edition (LMDE) 4 "Debbie"** (via Debian 10)
-=======
->>>>>>> 89232307f24a4578a3e06095bb888f9dee1b2406
-
-**Supported Devuan versions:**
-
-* **Jessie** (via Debian 8)
-* **Ascii** (via Debian 9)
-* **Beowulf** (via Debian 10)
-* **Ceres** (via Debian unstable)
-=======
-* **Linux Mint 19.3 "Tricia"** (via Ubuntu 18.04 LTS)
 
 **Supported Devuan versions:**
 
@@ -110,7 +90,6 @@ NodeSource will maintain support for stable, testing and unstable releases of De
 * **Ascii / stable** (via Debian 9)
 * **Beowulf / testing** (via Debian 10)
 * **Ceres / unstable** (via Debian unstable)
->>>>>>> 864ec0d7a70bcf156bbb31d65b95aebea02b88e7
 
 **Supported elementary OS versions:**
 
